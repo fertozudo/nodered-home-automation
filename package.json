@@ -1,0 +1,24 @@
+{
+  "name": "nodered-home-automation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "node-red": "^1.0.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node node_modules/node-red/red.js -v -u ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fertozudo/nodered-home-automation.git"
+  },
+  "author": "fertozudo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fertozudo/nodered-home-automation/issues"
+  },
+  "homepage": "https://github.com/fertozudo/nodered-home-automation#readme"
+}
