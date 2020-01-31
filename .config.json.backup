@@ -626,6 +626,26 @@
      "file": "/home/pedro/vsc_workspace/nodered-home-automation/node_modules/node-red-contrib-cron-plus/cronplus.js"
     }
    }
+  },
+  "node-red-node-pi-gpio": {
+   "name": "node-red-node-pi-gpio",
+   "version": "1.0.6",
+   "local": false,
+   "nodes": {
+    "rpi-gpio": {
+     "name": "rpi-gpio",
+     "types": [
+      "rpi-gpio in",
+      "rpi-gpio out",
+      "rpi-mouse",
+      "rpi-keyboard"
+     ],
+     "enabled": true,
+     "local": true,
+     "module": "node-red-node-pi-gpio",
+     "file": "/home/pedro/vsc_workspace/nodered-home-automation/node_modules/node-red-node-pi-gpio/36-rpi-gpio.js"
+    }
+   }
   }
  },
  "_credentialSecret": "c5ac3272364b738dcd103c1361b565e113683fa8f6e55b552f003967b40220cd",

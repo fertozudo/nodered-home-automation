@@ -396,7 +396,7 @@
   "node-red-dashboard": {
    "name": "node-red-dashboard",
    "version": "2.19.3",
-   "local": false,
+   "local": true,
    "nodes": {
     "ui_base": {
      "name": "ui_base",
@@ -613,7 +613,7 @@
   "node-red-contrib-cron-plus": {
    "name": "node-red-contrib-cron-plus",
    "version": "0.4.0",
-   "local": false,
+   "local": true,
    "nodes": {
     "cronplus": {
      "name": "cronplus",
@@ -630,7 +630,7 @@
   "node-red-node-pi-gpio": {
    "name": "node-red-node-pi-gpio",
    "version": "1.0.6",
-   "local": false,
+   "local": true,
    "nodes": {
     "rpi-gpio": {
      "name": "rpi-gpio",
