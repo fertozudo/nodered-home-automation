@@ -1,27 +1,33 @@
 {
-  "name": "nodered-home-automation",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "dependencies": {
-    "node-red": "^1.0.3",
-    "node-red-contrib-cron-plus": "~0.4.0",
-    "node-red-dashboard": "~2.19.3",
-    "node-red-node-pi-gpio": "~1.0.6"
-  },
-  "devDependencies": {},
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node node_modules/node-red/red.js -v -u ."
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/fertozudo/nodered-home-automation.git"
-  },
-  "author": "fertozudo",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/fertozudo/nodered-home-automation/issues"
-  },
-  "homepage": "https://github.com/fertozudo/nodered-home-automation#readme"
+    "name": "nodered-home-automation",
+    "version": "1.0.0",
+    "description": "my home",
+    "main": "index.js",
+    "dependencies": {
+        "node-red": "^1.0.3",
+        "node-red-contrib-cron-plus": "~0.4.0",
+        "node-red-dashboard": "~2.19.3",
+        "node-red-node-pi-gpio": "~1.0.6"
+    },
+    "devDependencies": {},
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node node_modules/node-red/red.js -v -u ."
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/fertozudo/nodered-home-automation.git"
+    },
+    "author": "fertozudo",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/fertozudo/nodered-home-automation/issues"
+    },
+    "homepage": "https://github.com/fertozudo/nodered-home-automation#readme",
+    "node-red": {
+        "settings": {
+            "flowFile": "flows_pedro-DEV.json",
+            "credentialsFile": "flows_pedro-DEV_cred.json"
+        }
+    }
 }
