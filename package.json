@@ -6,7 +6,7 @@
     "dependencies": {
         "node-red": "^1.0.3",
         "node-red-contrib-cron-plus": "~0.4.0",
-        "node-red-dashboard": "~2.19.3",
+        "node-red-dashboard": "~2.26.2",
         "node-red-node-pi-gpio": "~1.0.6"
     },
     "devDependencies": {},
